@@ -18,6 +18,14 @@ public class BugInfestation {
 		double totalBugVolume=pop;//total bug volume variable
 		double newBugs;//increase bug population variable
 		double newBugVolume=0;//increase bug population variable
+		
+		while(totalBugVolume < house) {//when room is full with bug, stop loop
+			newBugs = pop * GROWTH_RATE;//save increase population
+			newBugVolume = newBugs * ONE_BUG_VOLUME;//save increase volume
+			pop = pop + newBugs;//save total bug population
+			totalBugVolume = totalBugVolume + newBugVolume;//save total bug volume
+			countWeeks++;//increase week each one loop
+		}
 
 	}
 
