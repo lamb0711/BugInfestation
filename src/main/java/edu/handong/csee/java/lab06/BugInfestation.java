@@ -12,7 +12,14 @@ public class BugInfestation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		double houseVolume;//save house volume
+		double startPopulation;//save first bug population
+		double population;//save population
 		
+		
+		Scanner keyboard = new Scanner(System.in);//use scanner class with keyboard
+		
+		BugInfestation how = new BugInfestation();//call instance variable how
 
 	}
 
