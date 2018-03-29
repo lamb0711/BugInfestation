@@ -20,6 +20,14 @@ public class BugInfestation {
 		Scanner keyboard = new Scanner(System.in);//use scanner class with keyboard
 		
 		BugInfestation how = new BugInfestation();//call instance variable how
+		
+		System.out.println("Enter the total volume of your house");//print message for house volume
+		System.out.print("in cubic feet: ");//print volume unit
+		houseVolume = keyboard.nextInt();//save input value to houseVolume
+		System.out.println("Enter the estimated number of");//print message for bug number
+		System.out.print("roaches in your house: ");//print bug unit
+		startPopulation = keyboard.nextInt();//save input value to startPopulation
+		population = startPopulation;//save start population to population
 
 	}
 
