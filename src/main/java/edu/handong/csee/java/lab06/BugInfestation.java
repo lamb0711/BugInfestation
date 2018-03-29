@@ -26,6 +26,11 @@ public class BugInfestation {
 			totalBugVolume = totalBugVolume + newBugVolume;//save total bug volume
 			countWeeks++;//increase week each one loop
 		}
+		
+		System.out.println("after "+countWeeks+" weeks");//print count week 
+		System.out.println("the house will be filled with "+(int)pop+" roaches.");//print bug population
+		System.out.println("They will fill a volume of "+(int)totalBugVolume+" cubic feet.");//print total bug volume
+		System.out.println("Better call Debugging Experts Inc.");//ask call CESCO..
 
 	}
 
