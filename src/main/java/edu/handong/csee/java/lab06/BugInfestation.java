@@ -1,5 +1,5 @@
-package edu.handong.csee.java.lab06;
-import java.util.Scanner;
+package edu.handong.csee.java.lab06;//package name
+import java.util.Scanner;//use scanner class
 /**
  * This class count number of weeks until the room is full with roachs.
  * The growth rate and volume of roach increase each week. 
@@ -8,12 +8,12 @@ import java.util.Scanner;
  * @author magic
  *
  */
-public class BugInfestation {
+public class BugInfestation {//bug infestation class
 	
 	static final double GROWTH_RATE = 0.95;//unchanged variable GROWTH_RATE
 	static final double ONE_BUG_VOLUME = 0.002;//unchanged variable ONE_BUG_VOLUME
 	
-	public void HowMuchBug(double pop, double house) {
+	public void HowMuchBug(double pop, double house) {//count week and add volume and growth rate method. and print it.
 		int countWeeks=0;//count week variable
 		double totalBugVolume=pop;//total bug volume variable
 		double newBugs;//increase bug population variable
@@ -34,7 +34,7 @@ public class BugInfestation {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//main method
 		// TODO Auto-generated method stub
 		double houseVolume;//save house volume
 		double startPopulation;//save first bug population
