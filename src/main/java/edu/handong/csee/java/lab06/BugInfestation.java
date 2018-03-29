@@ -14,6 +14,10 @@ public class BugInfestation {
 	static final double ONE_BUG_VOLUME = 0.002;//unchanged variable ONE_BUG_VOLUME
 	
 	public void HowMuchBug(double pop, double house) {
+		int countWeeks=0;//count week variable
+		double totalBugVolume=pop;//total bug volume variable
+		double newBugs;//increase bug population variable
+		double newBugVolume=0;//increase bug population variable
 
 	}
 
